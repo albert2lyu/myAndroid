@@ -1,0 +1,30 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TableActivity" >
+
+    <TableRow>
+        <TextView android:id="@+id/tbl_txtViewPwd"
+            android:text="@string/text_tbl_txtViewPwd"
+            android:gravity="right"
+            android:padding="@dimen/tbl_padding"/>
+        <EditText android:id="@+id/tbl_edtPwd"
+            android:inputType="textPassword"
+            android:padding="@dimen/tbl_padding"
+            android:scrollHorizontally="true"/>
+    </TableRow>
+    
+    <TableRow android:gravity="right">
+        <Button android:id="@+id/tbl_btnCanel"
+            android:text="@string/text_btn_Canel"/>
+        <Button android:id="@+id/tbl_btnOk"
+            android:text="@string/text_btn_Ok"/>
+    </TableRow>
+
+</TableLayout>

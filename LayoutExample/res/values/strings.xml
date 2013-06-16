@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_btn1">地图_framelayout</string>
+    <string name="text_btn2">表单_relativelayout</string>
+    <string name="text_btn3">整齐_tablelayout</string>
+    <string name="text_btn4">混用_liner_relative</string>
+    <string name="title_activity_frame_layout">FrameLayoutActivity</string>
+    <string name="photo_description">照片描述</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="text_label1">请输入用户名：</string>
+    <string name="text_btn_Ok">确定</string>
+    <string name="text_btn_Canel">取消</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="text_tbl_txtViewPwd">登录密码</string>
+    <string name="title_activity_mix">MixActivity</string>
+    <string name="view_text1">第一组第一个</string>
+    <string name="view_text2">第一组第二个</string>
+    <string name="view_text3">第er组第一个</string>
+    <string name="view_text4">第er组第二个</string>
+
+</resources>

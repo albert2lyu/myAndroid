@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RelativeActivity" >
+
+    <TextView android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_label1"/>
+
+    <EditText android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:inputType="text"/>
+    
+    <Button android:id="@+id/btnCanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/btn_horizontal_margin_left"
+        android:text="@string/text_btn_Canel"/>
+    
+    <Button android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btnCanel"
+        android:layout_alignTop="@id/btnCanel"
+        android:text="@string/text_btn_Ok"/>
+    
+</RelativeLayout>
