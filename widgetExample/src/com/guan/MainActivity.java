@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.TimePicker;
 
 public class MainActivity extends Activity {
 
@@ -18,6 +20,11 @@ public class MainActivity extends Activity {
 		btnShow.setOnClickListener(btn_listener);
 		Button btnTextView = (Button)findViewById(R.id.main_btn_TextView);
 		btnTextView.setOnClickListener(btn_listener);
+		
+		DatePicker date = (DatePicker)findViewById(R.id.main_datepicker);
+		date.init(1989, 7, 9, null);
+		TimePicker time = (TimePicker)findViewById(R.id.main_timepicker);
+		time.setIs24HourView(true);
 	}
 
 	@Override
@@ -39,7 +46,4 @@ public class MainActivity extends Activity {
 			}
 		}
 	};
-	
-	
-
 }

@@ -18,4 +18,13 @@
         android:layout_height="@dimen/main_btn_TextView_height"
         android:text="@string/main_btn_TextView"
         android:layout_below="@id/main_btn_show"/>
+    
+    <DatePicker android:id="@+id/main_datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn_TextView"/>
+    <TimePicker android:id="@+id/main_timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_datepicker"/>
 </RelativeLayout>

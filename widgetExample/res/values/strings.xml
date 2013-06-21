@@ -15,6 +15,13 @@
     <string name="main_btn_show">改变title</string>
     <string name="main_btn_TextView">让TextView显示</string>
     <string name="textview_textview_value">textview显示的内容是这个</string>
+    <string name="textview_edittext_default">这是edittext</string>
+    <string name="textview_checkbox_one">Cone</string>
+    <string name="textview_checkbox_two">Ctwo</string>
+    <string name="textview_checkbox_three">Cthree</string>
+    <string name="textview_radioGroup_one">Rone</string>
+    <string name="textview_radioGroup_two">Rtwo</string>
+    <string name="textview_radioGroup_three">Rthree</string>
     <!-- 布局中用到的 end -->
 
     <string name="title_activity_text_view">TextViewActivity</string>
