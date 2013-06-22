@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.ImageButton;
 import android.widget.TimePicker;
 
 public class MainActivity extends Activity {
@@ -25,6 +26,9 @@ public class MainActivity extends Activity {
 		date.init(1989, 7, 9, null);
 		TimePicker time = (TimePicker)findViewById(R.id.main_timepicker);
 		time.setIs24HourView(true);
+		
+		ImageButton imgButton = (ImageButton)findViewById(R.id.main_imagebutton);
+		imgButton.setOnClickListener(btn_listener);
 	}
 
 	@Override
@@ -39,10 +43,11 @@ public class MainActivity extends Activity {
 		public void onClick(View v) {
 			if(v.getId() == R.id.main_btn_show)
 				setTitle(R.string.main_title_btn_show_click);
-			else if(v.getId() == R.id.main_btn_TextView)
-			{
+			else if(v.getId() == R.id.main_btn_TextView){
 				Intent intent = new Intent(MainActivity.this, TextViewActivity.class);
 				startActivity(intent);
+			} else if(v.getId() == R.id.main_imagebutton){
+				setTitle(R.string.main_title_imgbtn_click);
 			}
 		}
 	};

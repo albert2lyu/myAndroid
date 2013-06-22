@@ -7,6 +7,7 @@
 
     <!-- activity中用到的string start -->
     <string name="main_title_btn_show_click">点击了showbutton</string>
+    <string name="main_title_imgbtn_click">点击了imgbutton</string>
     <string name="textview_textview_newtvalue">####新的内容####</string>
     <!-- activity中用到的string end -->
 
@@ -14,6 +15,7 @@
     <!-- 布局中用到的string start -->
     <string name="main_btn_show">改变title</string>
     <string name="main_btn_TextView">让TextView显示</string>
+    <string name="main_imagebutton">play</string>
     <string name="textview_textview_value">textview显示的内容是这个</string>
     <string name="textview_edittext_default">这是edittext</string>
     <string name="textview_checkbox_one">Cone</string>
@@ -22,8 +24,17 @@
     <string name="textview_radioGroup_one">Rone</string>
     <string name="textview_radioGroup_two">Rtwo</string>
     <string name="textview_radioGroup_three">Rthree</string>
+    <string name="textview_imageview_dog">dog</string>
+    <string name="textview_btn_imgswitch">imgswitch</string>
+    <string name="textview_btn_imgsgrid">imgsgrid</string>
+    <string name="textview_btn_tab">btntab</string>
+    <string name="imgview_imgview">imgview</string>
     <!-- 布局中用到的 end -->
 
     <string name="title_activity_text_view">TextViewActivity</string>
+    <string name="title_activity_image_switch">ImageSwitchActivity</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_activity_tab_demo">TabDemoActivity</string>
 
 </resources>

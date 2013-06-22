@@ -96,6 +96,41 @@
         android:max="100"
         android:progress="50"
         android:secondaryProgress="77"/>
+    
+    <RatingBar android:id="@+id/textview_ratingbar_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="3.0"
+        android:stepSize="1"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_below="@id/textview_progressbar_hori"/>
+    
+    <ImageView android:id="@+id/textview_imageview_dog"
+        android:layout_below="@id/textview_ratingbar_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample_0"
+        android:contentDescription="@string/textview_imageview_dog"/>
+    
+    <Button android:id="@+id/textview_btn_imgswitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_btn_imgswitch"
+        android:layout_below="@id/textview_imageview_dog"/>
+    
+    <Button android:id="@+id/textview_btn_imgsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_btn_imgsgrid"
+        android:layout_below="@id/textview_btn_imgswitch"/>
+    
+    <Button android:id="@+id/textview_btn_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_btn_tab"
+        android:layout_below="@id/textview_btn_imgsGrid"/>
 
 </RelativeLayout>
 </ScrollView>

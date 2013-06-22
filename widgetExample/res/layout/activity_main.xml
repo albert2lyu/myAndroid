@@ -27,4 +27,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/main_datepicker"/>
+    
+    <SeekBar android:id="@+id/main_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:thumb="@drawable/seeker"
+        android:progress="50"
+        android:layout_below="@id/main_timepicker"/>
+    
+    <ImageButton android:id="@+id/main_imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play"
+        android:contentDescription="@string/main_imagebutton"
+        android:layout_below="@id/main_seekbar"/>
 </RelativeLayout>

@@ -9,6 +9,13 @@
     <dimen name="main_btn_TextView_width">180dp</dimen>
     <dimen name="main_btn_TextView_height">60dp</dimen>
     
+    <dimen name="imgswitch_gallery_height">60dp</dimen>
+    <dimen name="imgswitch_gallery_spacing">16dp</dimen>
+    
     <dimen name="textview_textview_fontsize">16dp</dimen>
+    
+    <dimen name="gridview_hoir_spacing">10dp</dimen>
+    <dimen name="gridview_vert_spacing">10dp</dimen>
+    <dimen name="gridview_column_width">90dp</dimen>
 
 </resources>

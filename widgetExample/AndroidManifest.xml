@@ -26,6 +26,25 @@
             android:name="com.guan.TextViewActivity"
             android:label="@string/title_activity_text_view" >
         </activity>
+        <activity
+            android:name="com.guan.ImageSwitchActivity"
+            android:label="@string/title_activity_image_switch" >
+        </activity>
+        <activity
+            android:name="com.guan.GridViewActivity"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name="com.guan.ImageViewActivity"
+            android:label="@string/title_activity_image_view" >
+        </activity>
+        <activity
+            android:name="com.guan.TabDemoActivity"
+            android:label="@string/title_activity_tab_demo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.TabActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,6 +1,7 @@
 package com.guan;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -11,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -63,6 +65,13 @@ public class TextViewActivity extends Activity {
 		ArrayAdapter<CharSequence> autoAdapter = new ArrayAdapter<CharSequence>(this, 
 				android.R.layout.simple_list_item_1, autoCompletes);
 		autoComplete.setAdapter(autoAdapter);
+		
+		Button btnImgSwitch = (Button)findViewById(R.id.textview_btn_imgswitch);
+		btnImgSwitch.setOnClickListener(click_Listener);
+		Button btnImgGrid = (Button)findViewById(R.id.textview_btn_imgsGrid);
+		btnImgGrid.setOnClickListener(click_Listener);
+		Button btnTab = (Button)findViewById(R.id.textview_btn_tab);
+		btnTab.setOnClickListener(click_Listener);
 	}
 
 	@Override
@@ -75,8 +84,19 @@ public class TextViewActivity extends Activity {
 	private OnClickListener click_Listener = new OnClickListener() {
 		@Override
 		public void onClick(View v) {
-			CharSequence txt = txtView.getText();
-			txtView.setText(txt + getString(R.string.textview_textview_newtvalue));
+			if(v.getId() == R.id.textview_textview_changetext){
+				CharSequence txt = txtView.getText();
+				txtView.setText(txt + getString(R.string.textview_textview_newtvalue));
+			} else if(v.getId() == R.id.textview_btn_imgswitch){
+				Intent iImgSwitch = new Intent(TextViewActivity.this, ImageSwitchActivity.class);
+				startActivity(iImgSwitch);
+			} else if(v.getId() == R.id.textview_btn_imgsGrid){
+				Intent iImgGrid = new Intent(TextViewActivity.this, GridViewActivity.class);
+				startActivity(iImgGrid);
+			} else if(v.getId() == R.id.textview_btn_tab){
+				Intent iBtnTab = new Intent(TextViewActivity.this, TabDemoActivity.class);
+				startActivity(iBtnTab);
+			}
 		}
 	};
 	
