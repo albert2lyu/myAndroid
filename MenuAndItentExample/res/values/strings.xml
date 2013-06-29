@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MenuAndItentExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">通过menu跳转到textviewActivity</string>
+    <string name="menu_show_textview_title">toTextView</string>
+    <string name="title_activity_text_view">TextViewActivity</string>
+    <string name="textview_textview_showtext">这是textview的显示文字</string>
+    <string name="textview_btn_toLogin">toLogin</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_name">用户名：</string>
+    <string name="login_pwd">密码：</string>
+    <string name="login_canel">取消</string>
+    <string name="login_ok">确定</string>
+
+</resources>
