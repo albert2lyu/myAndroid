@@ -5,5 +5,6 @@ myAndroid
 3, 伪3D照片浏览，GalleryDemo  
 4，菜单和startActivityForResult，onActivityResult的例子，MenuAndIntentExample  
 5，弹出框，DialogExample  
-6，
+6，通知和土司小例子，NotificationExample  
+7，
 
