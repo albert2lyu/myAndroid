@@ -8,5 +8,6 @@ myAndroid
 6，通知和土司小例子，NotificationExample  
 7，简单配置信息存储，SharedPreferencesExample  
 8，数据库小例子增删改差，SQLiteExample  
-9，
+9，日记程序SQLite实现，DiaryExample  
+10，
 

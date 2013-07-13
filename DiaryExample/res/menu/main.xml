@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/diary_add"
+        android:orderInCategory="0"
+        android:title="@string/diary_add"/>
+    
+    <item
+        android:id="@+id/diary_delete"
+        android:orderInCategory="1"
+        android:title="@string/diary_delete"/>
+
+</menu>

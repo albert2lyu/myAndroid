@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DiaryExample</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="diary_add">写日志</string>
+    <string name="diary_delete">删除日志</string>
+    <string name="title">标题</string>
+    <string name="body">内容</string>
+    <string name="confirm">确定</string>
+    <string name="title_activity_diary_edit">DiaryEditActivity</string>
+
+</resources>
